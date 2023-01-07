@@ -8,7 +8,9 @@ class Main extends Component {
     render() {
         return(
 
-            <div>
+        <div className='row justify-content-center'>
+
+            <div className='col-md-5' style={{marginTop:'250px', border:'5px solid black'}}>
 
             <h1>React Counter</h1>
             <h1>0</h1>
@@ -17,6 +19,8 @@ class Main extends Component {
             <button className='btn btn-primary'>Neutral</button>
 
             </div>
+
+        </div>
 
         );
     }
